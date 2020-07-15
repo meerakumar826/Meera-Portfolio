@@ -1,0 +1,26 @@
+David Pascoe-Deslauriers11:23 AM
+5 mod 4
+5 % 4
+<?php
+abstract class WsData {
+    protected $data;
+    protected $error;
+
+    public function getError() {
+        return $error;
+    }
+
+    abstract public function parse($data);
+    abstract public function getData($key);
+    abstract public function accepts();
+}
+
+
+
+
+
+
+
+SELECT *  
+FROM employee
+LEFT OUTER JOIN department ON employee.DepartmentID = department.DepartmentID;
